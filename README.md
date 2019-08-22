@@ -89,7 +89,7 @@ async function(req, res) {
 ```js
 ['北京市','北京','朝阳区']  
 ```
-### 4. 数据更新方法:
+### 5. 数据更新方法:
 
 (1)下载原始数据  
 民政部行政区划代码下载地址：http://www.mca.gov.cn/article/sj/xzqh  
