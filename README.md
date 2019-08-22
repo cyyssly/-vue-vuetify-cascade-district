@@ -4,11 +4,10 @@
 ### 1. 前置/Dependencies：vue、vuetify
 
 ### 2. 特性/Features:
-(1) 定制好的省、市、区三级行政区划
-(2) 包含手工整理的港澳台地区详细区划
-(3) 异步加载数据
-(4) 后文含数据更新方法
-
+(1) 定制好的省、市、区三级行政区划  
+(2) 包含手工整理的港澳台地区详细区划  
+(3) 异步加载数据  
+(4) 后文含数据更新方法  
 
 ![image](https://github.com/cyyssly/vue-vuetify-cascade/blob/master/1.JPG)
 
