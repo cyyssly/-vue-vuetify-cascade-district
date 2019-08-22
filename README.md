@@ -46,7 +46,7 @@ export default {
     item: {
       label: "省市区",
       height: "300px",
-      api: "/console/checkarea", // 默认的后端接口 API 地址，请根据你的项目实际情况修改
+      api: "/console/checkarea", // 后端接口 API 地址，请根据你的项目实际情况修改
       model: "", // 默认值
       menu: false // 是否展开组件
     }
