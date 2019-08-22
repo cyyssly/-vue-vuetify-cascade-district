@@ -1,4 +1,4 @@
-# vue-vuetify-cascade-district
+# vuetify-cascade-district
 中国行政区划级联选择器，基于vuetify
 
 ### 1. 前置/Dependencies：vue、vuetify
