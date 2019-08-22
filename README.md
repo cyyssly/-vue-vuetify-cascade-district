@@ -94,12 +94,14 @@ async function(req, res) {
 (1)下载原始数据  
 民政部行政区划代码下载地址：http://www.mca.gov.cn/article/sj/xzqh  
 页面没有提供下载功能，可以复制后直接粘贴到excel里。  
-但这个数据不含港澳台地区的下辖区划，内地也有5个不分区的地级市。为统一使用体验，建议手工添加其下级行政区划。我已经整理放入 extraDistrict.xlsx 文件中(更新到2019年8月)，把这些数据复制粘贴到民政局数据后面就齐全了。  
+但这个数据不含港澳台地区的下辖区划，内地也有5个不分区的地级市。为统一使用体验，建议手工添加其下级行政区划。我已经整理放入 extraDistrict.xlsx 文件中(更新到2019年8月)，把这些数据复制粘贴到民政局数据后面就齐全了。 
+
 (2)数据库建表  
 以 mysql 为例：表名为 extarea，包含3个字段：  
 code varchar(45) PK  
 name varchar(45)  
 parentcode varchar(45)  
+
 (3)导入并清洗数据
 导入数据到 mysql 并进行以下处理，目的是把数据规范化，便于使用：
 1. update  extarea set  code = replace(code,' ',''); 
