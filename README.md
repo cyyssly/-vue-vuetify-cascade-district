@@ -109,7 +109,7 @@ parentcode varchar(45)
 3. update extarea set  parentcode = CONCAT(left(code,2),'0000') where right(code,2) = '00' and right(code,4) <> '0000';
 4. update extarea set  parentcode = CONCAT(left(code,4),'00') where right(code,2) <> '00';
 5. insert into extarea values('110100','北京','110000'), ('120100','天津','120000'), ('310100','上海','310000'), ('500100','重庆','500000');
-6. update extarea set  parentcode = '' where right(code,4) = '0000';
+6. update extarea set  parentcode = '' where right(code,4) = '0000';  
 至此后台数据准备完毕。
 
 不想自己动手的，请下载项目中的 fullDistrict.sql 直接导入 mysql 即可。（更新到2019年8月）
